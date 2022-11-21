@@ -1,0 +1,414 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window：记事本",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "Notepad"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "Notepad",
+        "title": "无标题 - 记事本",
+        "boundingRectangle": "[85,333,704,625]",
+        "appName": "notepad",
+        "appPath": "C:\\Windows\\System32\\notepad.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "应用程序",
+          "identifyProperties": {
+            "type": "MenuBar",
+            "automationId": "MenuBar",
+            "name": "应用程序"
+          },
+          "cachedProperties": {
+            "type": "MenuBar",
+            "automationId": "MenuBar",
+            "name": "应用程序",
+            "boundingRectangle": "[93,364,688,19]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "文件(F)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "文件(F)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "文件(F)",
+                "boundingRectangle": "[93,364,52,19]"
+              },
+              "image": {
+                "imgPath": "uia.png",
+                "rect": "0,0,52,19"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "编辑(E)1",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "编辑(E)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "编辑(E)",
+                "boundingRectangle": "[150,538,53,19]"
+              },
+              "image": {
+                "imgPath": "uia28.png",
+                "rect": "0,0,53,19"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "文件(F)1",
+          "identifyProperties": {
+            "type": "Menu",
+            "name": "文件(F)",
+            "className": "#32768"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "文件(F)",
+            "boundingRectangle": "[93,383,203,174]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "打开(O)...",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "2",
+                "name": "打开(O)..."
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "2",
+                "name": "打开(O)...",
+                "accessKey": "Ctrl+O",
+                "boundingRectangle": "[96,408,197,22]"
+              },
+              "image": {
+                "imgPath": "uia4.png",
+                "rect": "0,0,197,22"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "保存(S)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "3",
+                "name": "保存(S)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "3",
+                "name": "保存(S)",
+                "accessKey": "Ctrl+S",
+                "boundingRectangle": "[96,430,197,22]"
+              },
+              "image": {
+                "imgPath": "uia5.png",
+                "rect": "0,0,197,22"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window：文件选择器",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "打开"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "打开",
+            "boundingRectangle": "[93,384,960,540]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "文件名(N):",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "automationId": "1148",
+                "name": "文件名(N):"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "automationId": "1148",
+                "className": "ComboBox",
+                "name": "文件名(N):",
+                "boundingRectangle": "[293,847,535,26]"
+              },
+              "image": {
+                "imgPath": "uia6.png",
+                "rect": "0,0,535,26"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "文件名(N):1",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "automationId": "1148",
+                    "name": "文件名(N):"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "automationId": "1148",
+                    "className": "Edit",
+                    "name": "文件名(N):",
+                    "boundingRectangle": "[204,698,511,17]"
+                  },
+                  "image": {
+                    "imgPath": "uia8.png",
+                    "rect": "0,0,511,17"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "打开(O)",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "name": "打开(O)"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "className": "Button",
+                "name": "打开(O)",
+                "boundingRectangle": "[840,878,88,26]"
+              },
+              "image": {
+                "imgPath": "uia7.png",
+                "rect": "0,0,88,26"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "替换"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "替换",
+            "boundingRectangle": "[186,368,419,239]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "查找内容(N):",
+              "identifyProperties": {
+                "type": "Edit",
+                "automationId": "1152",
+                "name": "查找内容(N):"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "automationId": "1152",
+                "className": "Edit",
+                "name": "查找内容(N):",
+                "boundingRectangle": "[289,414,200,26]"
+              },
+              "image": {
+                "imgPath": "uia18.png",
+                "rect": "0,0,200,26"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "替换为(P):",
+              "identifyProperties": {
+                "type": "Edit",
+                "automationId": "1153",
+                "name": "替换为(P):"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "automationId": "1153",
+                "className": "Edit",
+                "name": "替换为(P):",
+                "boundingRectangle": "[289,450,200,26]"
+              },
+              "image": {
+                "imgPath": "uia19.png",
+                "rect": "0,0,200,26"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "TitleBar",
+              "identifyProperties": {
+                "type": "TitleBar",
+                "automationId": "TitleBar"
+              },
+              "cachedProperties": {
+                "type": "TitleBar",
+                "automationId": "TitleBar",
+                "boundingRectangle": "[194,371,403,28]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "关闭",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "Close",
+                    "name": "关闭"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "automationId": "Close",
+                    "name": "关闭",
+                    "boundingRectangle": "[564,369,34,30]"
+                  },
+                  "image": {
+                    "imgPath": "uia21.png",
+                    "rect": "0,0,34,30"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "全部替换(A)",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1025",
+                "name": "全部替换(A)"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1025",
+                "className": "Button",
+                "name": "全部替换(A)",
+                "boundingRectangle": "[435,429,88,30]"
+              },
+              "image": {
+                "imgPath": "uia22.png",
+                "rect": "0,0,88,30"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "编辑(E)",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "编辑(E)"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "编辑(E)",
+            "boundingRectangle": "[150,557,219,291]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "替换(R)...",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "23",
+                "name": "替换(R)..."
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "23",
+                "name": "替换(R)...",
+                "accessKey": "Ctrl+H",
+                "boundingRectangle": "[153,750,213,22]"
+              },
+              "image": {
+                "imgPath": "uia29.png",
+                "rect": "0,0,213,22"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "任务栏",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Shell_TrayWnd",
+        "name": "任务栏"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Shell_TrayWnd",
+        "name": "任务栏",
+        "boundingRectangle": "[0,1040,1920,40]",
+        "appName": "explorer",
+        "appPath": "C:\\Windows\\explorer.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "运行中的应用程序",
+          "identifyProperties": {
+            "type": "ToolBar",
+            "className": "MSTaskListWClass",
+            "name": "运行中的应用程序"
+          },
+          "cachedProperties": {
+            "type": "ToolBar",
+            "className": "MSTaskListWClass",
+            "name": "运行中的应用程序",
+            "boundingRectangle": "[48,1040,1676,40]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "记事本",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\notepad.exe",
+                "name": "VideoPathList.json - 记事本 - 1 个运行窗口"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\notepad.exe",
+                "name": "VideoPathList.json - 记事本 - 1 个运行窗口",
+                "boundingRectangle": "[1158,1040,151,40]"
+              },
+              "image": {
+                "imgPath": "uia24.png",
+                "rect": "0,0,151,40"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

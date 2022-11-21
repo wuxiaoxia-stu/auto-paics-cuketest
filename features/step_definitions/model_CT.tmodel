@@ -1,0 +1,42 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "ptn",
+      "nname": "pattern_start",
+      "identifyProperties": {
+        "imagePath": "pattern.png"
+      },
+      "cachedProperties": {
+        "boundingRectangle": "[0,0,46,39]"
+      },
+      "image": {
+        "imgPath": "pattern.png",
+        "rect": "0,0,46,39"
+      }
+    },
+    {
+      "ntype": "uia",
+      "nname": "E:\\ct\\AutoPaics_--_test_CT.js",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "E:\\ct\\AutoPaics -- test_CT.js",
+        "appName": "Cuke"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "E:\\ct\\AutoPaics -- test_CT.js",
+        "boundingRectangle": "[48,0,1519,1047]",
+        "appName": "Cuke",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\Cuke.exe"
+      },
+      "image": {
+        "imgPath": "uia.png",
+        "rect": "0,0,1519,1047"
+      }
+    }
+  ]
+}

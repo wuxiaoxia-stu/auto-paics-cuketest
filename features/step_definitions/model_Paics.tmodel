@@ -1,0 +1,134 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "MainWindow_QML_301"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "MainWindow_QML_301",
+        "title": "AYJ PUS",
+        "helptext": "AYJ PUS",
+        "boundingRectangle": "[0,0,1921,1080]",
+        "appName": "LPMPAICSClient",
+        "appPath": "D:\\20220216-yizhixingtest\\PAICSLPMClient\\LPMPAICSClient.exe"
+      }
+    },
+    {
+      "ntype": "ptn",
+      "nname": "pattern_close",
+      "description": "关闭按钮",
+      "identifyProperties": {
+        "imagePath": "pattern1.png"
+      },
+      "cachedProperties": {
+        "boundingRectangle": "[0,0,197,55]"
+      },
+      "image": {
+        "imgPath": "pattern1.png",
+        "rect": "0,0,197,55"
+      }
+    },
+    {
+      "ntype": "ptn",
+      "nname": "pattern_B",
+      "identifyProperties": {
+        "imagePath": "pattern2.png"
+      },
+      "cachedProperties": {
+        "boundingRectangle": "[0,0,209,232]"
+      },
+      "image": {
+        "imgPath": "pattern2.png",
+        "rect": "0,0,209,232"
+      }
+    },
+    {
+      "ntype": "uia",
+      "nname": "任务栏",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Shell_TrayWnd",
+        "name": "任务栏"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Shell_TrayWnd",
+        "name": "任务栏",
+        "boundingRectangle": "[0,1040,1920,40]",
+        "appName": "explorer",
+        "appPath": "C:\\Windows\\explorer.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "运行中的应用程序",
+          "identifyProperties": {
+            "type": "ToolBar",
+            "className": "MSTaskListWClass",
+            "name": "运行中的应用程序"
+          },
+          "cachedProperties": {
+            "type": "ToolBar",
+            "className": "MSTaskListWClass",
+            "name": "运行中的应用程序",
+            "boundingRectangle": "[96,1040,1628,40]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "LPMPAICSClient.exe",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "AYJ PUS - 1 个运行窗口"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "D:\\PAICSLPMClient\\LPMPAICSClient.exe",
+                "name": "AYJ PUS - 1 个运行窗口",
+                "boundingRectangle": "[1044,1040,142,40]"
+              },
+              "image": {
+                "imgPath": "uia1.png",
+                "rect": "0,0,142,40"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "ptn",
+      "nname": "pattern_A",
+      "identifyProperties": {
+        "imagePath": "pattern3.png"
+      },
+      "cachedProperties": {
+        "boundingRectangle": "[0,0,266,249]"
+      },
+      "image": {
+        "imgPath": "pattern3.png",
+        "rect": "0,0,266,249"
+      }
+    },
+    {
+      "ntype": "ptn",
+      "nname": "pattern_stop",
+      "identifyProperties": {
+        "imagePath": "pattern6.png"
+      },
+      "cachedProperties": {
+        "boundingRectangle": "[0,0,119,34]"
+      },
+      "image": {
+        "imgPath": "pattern6.png",
+        "rect": "0,0,119,34"
+      }
+    }
+  ]
+}
